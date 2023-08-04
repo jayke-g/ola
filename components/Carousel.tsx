@@ -1,15 +1,12 @@
-"use client";
+'use client'
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { ProjectsPreview } from "@/data/projectsPreview";
 
 interface CarouselProps {
-  sets: {
-    images: string[];
-    titles: string[];
-    descriptions: string[];
-    links: string[];
-  }[];
+  sets: ProjectsPreview[];
 }
 
 const Carousel: React.FC<CarouselProps> = ({ sets }) => {
@@ -29,7 +26,7 @@ const Carousel: React.FC<CarouselProps> = ({ sets }) => {
   const isLastSet = currentIndex === totalSets - 1;
 
   return (
-    <div className="relative w-full overflow-hidden pb-4">
+    <section className="relative w-full overflow-hidden pb-4">
       <div
         className="flex"
         style={{
@@ -41,6 +38,7 @@ const Carousel: React.FC<CarouselProps> = ({ sets }) => {
         {sets.map((set, setIndex) => (
           <div
             key={setIndex}
+            id="section-carousel"
             className="w-full flex-shrink-0 pb-4"
             style={{ width: carouselWidth }}
           >
@@ -50,23 +48,30 @@ const Carousel: React.FC<CarouselProps> = ({ sets }) => {
               }`}
               style={{ transition: "opacity 0.3s" }}
             >
-              {set.images.map((image, imageIndex) => (
+              {set.image.map((image, imageIndex) => (
                 <div key={imageIndex} className="flex flex-col pb-6">
                   <div className="flex flex-row">
-                    <div className="w-[55%]">
-                      <Link href={set.links[imageIndex]}>
-                        <img src={image} alt={`Image ${imageIndex + 1}`} className="transform duration-100 ease-out hover:rounded-[50%]" />
+                    <div className="w-[100%] md:w-[55%]">
+                      <Link href={set.title[imageIndex]}>
+                        <Image
+                          src={image}
+                          width={1000}
+                          height={500}
+                          quality={75}
+                          alt={`Image ${imageIndex + 1}`}
+                          className="transform duration-100 ease-out hover:rounded-[50%]"
+                        />
                       </Link>
                     </div>
-                    <div className="flex flex-col flex-1 items-start pl-4 text-4xl w-[45%]">
+                    <div className="hidden md:flex flex-col flex-1 items-start pl-4 text-4xl w-[45%]">
                       <h2 className="uppercase pb-6">
-                        {set.titles[imageIndex]}
+                        {set.name[imageIndex]}
                       </h2>
-                      <p>{set.descriptions[imageIndex]}</p>
-                      <Link href={set.links[imageIndex]} className="mt-auto">
+                      <p>{set.description[imageIndex]}</p>
+                      <Link href={set.title[imageIndex]} className="mt-auto">
                         <img
-                          className="w-10"
-                          src="/arrow-up.svg"
+                          className="w-10 hover:scale-125"
+                          src="/images/arrow-up.svg"
                           alt="arrow up"
                         />
                       </Link>
@@ -83,11 +88,11 @@ const Carousel: React.FC<CarouselProps> = ({ sets }) => {
         {!isFirstSet && (
           <button className="flex flex-row space-x-5" onClick={prevSlide}>
             <img
-              src="arrow-previous.svg"
+              src="/images/arrow-previous.svg"
               alt="previous arrow"
               className="w-10"
             />
-            <div className="text-left self-center">
+            <div className="hidden xs:block text-left self-center">
               PREVIOUS
               <br />
               projects
@@ -96,20 +101,16 @@ const Carousel: React.FC<CarouselProps> = ({ sets }) => {
         )}
         {!isLastSet && (
           <button className="flex flex-row space-x-5" onClick={nextSlide}>
-            <div className="text-left self-center">
+            <div className="hidden xs:block text-left self-center">
               NEXT
               <br />
               projects
             </div>
-            <img
-              src="arrow-next.svg"
-              alt="next arrow"
-              className="w-10"
-            />
+            <img src="/images/arrow-next.svg" alt="next arrow" className="w-10" />
           </button>
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

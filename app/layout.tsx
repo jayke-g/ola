@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "ola",
-};
+  title: "ola"
+}
 
 export default function RootLayout({
   children,
