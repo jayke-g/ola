@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import { notFound } from 'next/navigation'
 import projects from "@/data/projects";
 
 const ProjectPage: React.FC = () => {
@@ -9,9 +10,7 @@ const ProjectPage: React.FC = () => {
 
   if (!project) {
     return (
-      <div className="flex justify-center items-center text-4xl h-screen">
-        Page not found!
-      </div>
+      notFound()
     );
   }
 
