@@ -11,7 +11,7 @@ export default function ContactPage() {
       <div>
         <div className="border border-black"></div>
         <div className="py-2 flex flex-row justify-between">
-          <div>PHONE: +420 774 552 240</div>
+          <div>PHONE: 0478 505 460</div>
           <img
             className="hidden sm:block w-5 sm:w-7 md:w-10"
             src="/images/arrow-up.svg"

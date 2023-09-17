@@ -53,11 +53,8 @@ const Carousel: React.FC<CarouselProps> = ({ sets }) => {
                   <div className="flex flex-row">
                     <div className="w-[100%] md:w-[55%]">
                       <Link href={set.title[imageIndex]}>
-                        <Image
+                        <img
                           src={image}
-                          width={1000}
-                          height={500}
-                          quality={75}
                           alt={`Image ${imageIndex + 1}`}
                           className="transform duration-100 ease-out hover:rounded-[50%]"
                         />
