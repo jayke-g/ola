@@ -11,9 +11,9 @@ const projectsPreview: ProjectsPreview[] = [
     name: ["placeholder project", "placeholder project", "placeholder project"],
     description: ["Placeholder description", "Placeholder description", "Placeholder description"],
     title: [
-      "placeholder-project",
-      "placeholder-project",
-      "placeholder-project",
+      "/placeholder-project",
+      "/placeholder-project",
+      "/placeholder-project",
     ],
   },
   {
@@ -21,9 +21,9 @@ const projectsPreview: ProjectsPreview[] = [
     name: ["placeholder project", "placeholder project", "placeholder project"],
     description: ["Placeholder description", "Placeholder description", "Placeholder description"],
     title: [
-      "placeholder-project",
-      "placeholder-project",
-      "placeholder-project",
+      "/placeholder-project",
+      "/placeholder-project",
+      "/placeholder-project",
     ],
   },
   {
@@ -31,9 +31,9 @@ const projectsPreview: ProjectsPreview[] = [
     name: ["placeholder project", "placeholder project", "placeholder project"],
     description: ["Placeholder description", "Placeholder description", "Placeholder description"],
     title: [
-      "placeholder-project",
-      "placeholder-project",
-      "placeholder-project",
+      "/placeholder-project",
+      "/placeholder-project",
+      "/placeholder-project",
     ],
   },
   // Add more sets as needed
