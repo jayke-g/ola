@@ -34,7 +34,7 @@ const Carousel: React.FC<CarouselProps> = ({ sets }) => {
           transition: "transform 0.3s",
         }}
       >
-        {sets.map((set, setIndex) => (
+        {sets && sets.map((set, setIndex) => (
           <div
             key={setIndex}
             id="section-carousel"
@@ -51,7 +51,7 @@ const Carousel: React.FC<CarouselProps> = ({ sets }) => {
                 <div key={imageIndex} className="flex flex-col pb-6">
                   <div className="flex flex-row">
                     <div className="w-[100%] md:w-[55%]">
-                      <Link href={"/" + set.title[imageIndex]}>
+                      <Link href={set.title[imageIndex]}>
                         <img
                           src={image}
                           alt={`Image ${imageIndex + 1}`}
