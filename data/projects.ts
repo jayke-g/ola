@@ -48,8 +48,7 @@ const projects: Projects[] = [
       "/projects/capturing/slide_7.jpg",
       "/projects/capturing/slide_8.jpg",
       "/projects/capturing/slide_9.jpg",
-      "/projects/capturing/slide_10.jpg",
-      "/projects/capturing/slide_11.mp4"
+      "/projects/capturing/slide_10.mp4"
     ],
     mediaDesc: []
   },
