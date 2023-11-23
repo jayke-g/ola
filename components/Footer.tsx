@@ -21,9 +21,6 @@ export default function Footer() {
                 BEHANCE
               </Link>
             </div>
-            <div className="hover:underline">
-              <Link href="/contact">CONTACT</Link>
-            </div>
           </div>
         </div>
         <div className="border border-white"></div>

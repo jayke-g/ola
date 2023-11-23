@@ -5,10 +5,8 @@ export default function HomeHeader() {
     <section className="p-6 text-4xl font-normal">
       <div className="pb-4 flex flex-row justify-end sm:justify-between">
         <div className="w-[475px] hidden sm:block">
-          <Link href="/contact" className="hover:underline">
-            Oleksandra Gubkina
-          </Link>{" "}
-          is a graphic designer from Ukraine based in Sydney, Australia. She
+          Oleksandra Gubkina
+          is a graphic designer and junior art director from Ukraine based in Sydney, Australia. She
           works with brand identities and social media content.
         </div>
         <div className="w-20 flex flex-row-reverse sm:w-[200px] sm:flex sm:flex-col justify-end hover:cursor-pointer">
@@ -33,9 +31,6 @@ export default function HomeHeader() {
           <Link href="https://www.behance.net/olala" target="_blank">
             BEHANCE
           </Link>
-        </div>
-        <div className="hover:underline">
-          <Link href="/contact">CONTACT</Link>
         </div>
       </div>
       <div className="border border-black"></div>

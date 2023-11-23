@@ -50,7 +50,7 @@ const Carousel: React.FC<CarouselProps> = ({ sets }) => {
               {set.image.map((image, imageIndex) => (
                 <div key={imageIndex} className="flex flex-col pb-6">
                   <div className="flex flex-row">
-                    <div className="w-[100%] md:w-[55%]">
+                    <div className="object-cover max-w-3xl">
                       <Link href={set.title[imageIndex]}>
                         <img
                           src={image}
