@@ -10,7 +10,7 @@ export default function HomeHeader() {
           works with brand identities and social media content.
         </div>
         <div className="w-20 flex flex-row-reverse sm:w-[200px] sm:flex sm:flex-col justify-end hover:cursor-pointer">
-          <Link href="https://prytulafoundation.org/en" target="_blank">
+          <Link href="/">
             <img src="/logos/ola-home.svg" alt="ola logo" />
           </Link>
         </div>

@@ -9,28 +9,30 @@ export interface Projects {
 
 const projects: Projects[] = [
   {
-    slug: "/some-things-we-shoot",
-    title: "Some Things We Shoot",
-    header: "/projects/stws/main_inproject.jpg",
+    slug: "/rere",
+    title: "Art Book Store Brand Identity",
+    header: "/projects/rere/main_inproject.jpg",
     description: [
-      "A couple of years ago, I created a design for my film photography focused YouTube channel that I shared with my partner. It was one of the first projects I undertook when I started practising graphic design. Some time passed, and so I decided to redesign it to assess how my skills had evolved. I wanted to retain certain elements from my old design, such as colours and forms, but I aimed to give it a more contemporary feel. Additionally, I wanted to imbue the design with some meaning behind the forms."
+      "Rere (Reread) is a fictional art bookstore in Melbourne with a penchant for bold statements and creativity. It caters to upcoming young creatives who appreciate art in all its forms. The brand identity of Rere is all about simplicity—bright colors, abstract designs, unique accents, and an overall celebration of creativity. The goal is to capture the essence of Rere's bold spirit and appeal to the next generation of artistic minds.",
     ],
     media: [
-      "/projects/stws/slide_1.jpg",
-      "/projects/stws/slide_2.jpg",
-      "/projects/stws/slide_3.mp4",
-      "/projects/stws/slide_4.jpg",
-      "/projects/stws/slide_5.jpg",
-      "/projects/stws/slide_6.jpg",
-      "/projects/stws/slide_7.jpg",
-      "/projects/stws/slide_8.jpg",
-      "/projects/stws/slide_9.jpg",
-      "/projects/stws/slide_10.jpg",
+      "/projects/rere/slide_1.jpg",
+      "/projects/rere/slide_2.jpg",
+      "/projects/rere/slide_3.jpg",
+      "/projects/rere/slide_4.jpg",
+      "/projects/rere/slide_5.jpg",
+      "/projects/rere/slide_6.jpg",
+      "/projects/rere/slide_7.jpg",
+      "/projects/rere/slide_8.jpg",
+      "/projects/rere/slide_9.jpg",
+      "/projects/rere/slide_10.jpg",
+      "/projects/rere/slide_11.jpg",
+      "/projects/rere/slide_12.jpg"
     ],
     mediaDesc: []
   },
   {
-    slug: "/capturing",
+    slug: "/capturing-australia",
     title: "Capturing the Essence: Australia",
     header: "/projects/capturing/main_inproject.jpg",
     description: [
@@ -49,6 +51,27 @@ const projects: Projects[] = [
       "/projects/capturing/slide_8.jpg",
       "/projects/capturing/slide_9.jpg",
       "/projects/capturing/slide_10.mp4"
+    ],
+    mediaDesc: []
+  },
+  {
+    slug: "/some-things-we-shoot",
+    title: "Some Things We Shoot",
+    header: "/projects/stws/main_inproject.jpg",
+    description: [
+      "A couple of years ago, I created a design for my film photography focused YouTube channel that I shared with my partner. It was one of the first projects I undertook when I started practising graphic design. Some time passed, and so I decided to redesign it to assess how my skills had evolved. I wanted to retain certain elements from my old design, such as colours and forms, but I aimed to give it a more contemporary feel. Additionally, I wanted to imbue the design with some meaning behind the forms."
+    ],
+    media: [
+      "/projects/stws/slide_1.jpg",
+      "/projects/stws/slide_2.jpg",
+      "/projects/stws/slide_3.mp4",
+      "/projects/stws/slide_4.jpg",
+      "/projects/stws/slide_5.jpg",
+      "/projects/stws/slide_6.jpg",
+      "/projects/stws/slide_7.jpg",
+      "/projects/stws/slide_8.jpg",
+      "/projects/stws/slide_9.jpg",
+      "/projects/stws/slide_10.jpg",
     ],
     mediaDesc: []
   },
