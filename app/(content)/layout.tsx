@@ -6,7 +6,7 @@ export default function ContentLayout({
   children: React.ReactNode
 }) {
   return (
-    <section className="p-2">
+    <section className="p-6">
       <ContentHeader/>
       {children}
     </section>

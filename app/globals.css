@@ -5,4 +5,7 @@
 html,
 body {
   cursor: url("/cursor.cur"), auto;
+  font-family: Arial;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
 }

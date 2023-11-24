@@ -1,3 +1,1 @@
-# Ola
-
-A graphic design portfolio for Oleksandra.
+# Ola Graphic Designer Portfolio

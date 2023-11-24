@@ -34,7 +34,7 @@ const projects: Projects[] = [
     title: "Capturing the Essence: Australia",
     header: "/projects/capturing/main_inproject.jpg",
     description: [
-      "Discover my story in my zine—a tale of leaving the familiar for a new start in Australia. Inspired by Ursula K. Le Guin's 'The Dispossessed,' I've woven in quotes that echo my journey.",
+      "Discover my story in my zine—a tale of leaving the familiar for a new start in Australia. Inspired by Ursula K. Le Guin's 'The Dispossessed', I've woven in quotes that echo my journey.",
       "This zine is not just a recounting of my migration; it's a celebration of resilience and adaptability. Imagine a world where the childlike essence of storytelling meets the profound themes of displacement and discovery. I've crafted each page to be a visual feast, playful yet poignant, mirroring the emotions of my own experiences.",
       "The vibrant hues and whimsical illustrations dance alongside quotes from Le Guin, creating a fusion that not only tells my story but invites you to reflect on broader societal narratives. It's not just a zine; it's a conversation starter, an exploration of the intersection between personal narratives and the collective human experience.",
     ],
@@ -93,7 +93,7 @@ const projects: Projects[] = [
     ],
     mediaDesc: [
       "I diversified our social media content for Stavební spořitelna České republiky into three distinct categories: product advertisement posts, informative content focusing on renovations, and engaging contest posts offering participants opportunities to win prizes from the bank.",
-      "This post is an example of an informational piece about renovations. I shared it on Facebook along with a short caption crafted by our copywriter. I always made sure to include one of our main brand colours, in this case, as the background colour",
+      "This post is an example of an informational piece about renovations. I shared it on Facebook along with a short caption crafted by our copywriter. I always made sure to include one of our main brand colours, in this case, as the background colour.",
       "Here, you can check out examples of competition posts. Sometimes, we tried to up the engagement by adding a small puzzle.",
       "These are examples of engaging posts I created for our client's Facebook page. In this particular type of post, followers on Facebook could vote for their favorite option in the comments. These posts were always tied to renovation topics.",
       "Occasionally, I would create a simple animation in a collage style. Here are some frames from an animation about kitchen trends, featuring natural materials, more daylight, and so on. In 2023, following an update to Stavební spořitelna České republiky's brand identity, I seamlessly transitioned the entire social media content strategy to align with the newly provided brand book. This strategic shift ensured a cohesive and professional representation of the bank's updated visual identity across various online platforms.",
