@@ -16,13 +16,23 @@ export default function Footer() {
           </div>
           <div className="flex flex-col items-start">
             <div className="hover:underline">
+              <Link href="https://www.behance.net/olala" target="_blank">
+                BEHANCE
+              </Link>
+            </div>
+            <div className="hover:underline">
               <Link href="/files/Gubkina_designer_CV.pdf" target="_blank">
                 RESUME
               </Link>
             </div>
             <div className="hover:underline">
-              <Link href="https://www.behance.net/olala" target="_blank">
-                BEHANCE
+              <Link href="https://www.instagram.com/pixel_ola/" target="_blank">
+                INSTAGRAM
+              </Link>
+            </div>
+            <div className="hover:underline">
+              <Link href="https://www.tiktok.com/@pixel_ola/" target="_blank">
+                TIKTOK
               </Link>
             </div>
           </div>

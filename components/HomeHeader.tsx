@@ -17,9 +17,9 @@ export default function HomeHeader() {
       </div>
       <div className="border border-black"></div>
       <div className="py-4 flex flex-col items-start">
-        <div className="pb-4 hover:underline">
-          <Link href="https://www.instagram.com/sasha_ga/" target="_blank">
-            @sasha_ga
+        <div className="hover:underline">
+          <Link href="https://www.behance.net/olala" target="_blank">
+            BEHANCE
           </Link>
         </div>
         <div className="hover:underline">
@@ -28,8 +28,13 @@ export default function HomeHeader() {
           </Link>
         </div>
         <div className="hover:underline">
-          <Link href="https://www.behance.net/olala" target="_blank">
-            BEHANCE
+          <Link href="https://www.instagram.com/pixel_ola/" target="_blank">
+            INSTAGRAM
+          </Link>
+        </div>
+        <div className="hover:underline">
+          <Link href="https://www.tiktok.com/@pixel_ola/" target="_blank">
+            TIKTOK
           </Link>
         </div>
       </div>
