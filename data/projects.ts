@@ -32,6 +32,23 @@ const projects: Projects[] = [
     mediaDesc: []
   },
   {
+    slug: "/posters",
+    title: "Posters Collection",
+    header: "/projects/posters/main_inproject.jpg",
+    description: [
+      "All of these posters were created for my TikTok account, where I upload videos weekly, showcasing my creative process of designing (in some cases, redesigning) posters. When I started this account, I was mainly concentrating on redesigning film posters. However, with time, I began creating posters featuring viral song lyrics, and I started gaining more followers through this. It is a great exercise for me; I not only design posters but also practice my video editing skills and connect them with marketing and promoting my videos.",
+    ],
+    media: [
+      "/projects/posters/slide_1.jpg",
+      "/projects/posters/slide_2.jpg",
+      "/projects/posters/slide_3.jpg",
+      "/projects/posters/slide_4.jpg",
+      "/projects/posters/slide_5.jpg",
+      "/projects/posters/slide_6.jpg"
+    ],
+    mediaDesc: []
+  },
+  {
     slug: "/capturing-australia",
     title: "Capturing the Essence: Australia",
     header: "/projects/capturing/main_inproject.jpg",
