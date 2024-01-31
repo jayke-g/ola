@@ -49,6 +49,24 @@ const projects: Projects[] = [
     mediaDesc: []
   },
   {
+    slug: "/crush",
+    title: "Wine Packaging Design",
+    header: "/projects/crush/main_inproject.jpg",
+    description: [
+      "I would like to present to you packaging for the wine brand called Crush Vino. It is a bottle of sparkling white wine that will bring an explosion of taste into your mouth. It is a minimalist concept that aims to highlight the importance of not being distracted while you are drinking the wine. Crush Vino is a combination of tradition and eagerness to impress; 'Less is more' is the motto of this brand. Less allows you to experience more and deeper.",
+    ],
+    media: [
+      "/projects/crush/slide_1.jpg",
+      "/projects/crush/slide_2.jpg",
+      "/projects/crush/slide_3.jpg",
+      "/projects/crush/slide_4.jpg",
+      "/projects/crush/slide_5.jpg",
+      "/projects/crush/slide_6.jpg",
+      "/projects/crush/slide_7.jpg",
+    ],
+    mediaDesc: []
+  },
+  {
     slug: "/capturing-australia",
     title: "Capturing the Essence: Australia",
     header: "/projects/capturing/main_inproject.jpg",
